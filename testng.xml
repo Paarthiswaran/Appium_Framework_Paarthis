@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Utilities.Listeners"/>
+<listener class-name="Utilities.ExtentReporterNG"/>
+</listeners>
+  
+<test thread-count="1" name="Test">
+    <classes>
+      <class name="EcommerceApp.Ecommerce_TC_001"/>
+	  <class name="EcommerceApp.Ecommerce_TC_002_ToastMsg"/>
+	  <!-- <class name="EcommerceApp.Ecommerce_TC_003_Addtocart"/>
+	  <class name="EcommerceApp.Ecommerce_TC_004_CheckSumInCart"/>
+      <class name="EcommerceApp.Ecommerce_TC_005_ShiftingToWebView"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
